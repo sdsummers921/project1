@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PatientsDT" msprop:Generator_TableClassName="PatientsDTDataTable" msprop:Generator_TableVarName="tablePatientsDT" msprop:Generator_RowChangedName="PatientsDTRowChanged" msprop:Generator_TablePropName="PatientsDT" msprop:Generator_RowDeletingName="PatientsDTRowDeleting" msprop:Generator_RowChangingName="PatientsDTRowChanging" msprop:Generator_RowEvHandlerName="PatientsDTRowChangeEventHandler" msprop:Generator_RowDeletedName="PatientsDTRowDeleted" msprop:Generator_RowClassName="PatientsDTRow" msprop:Generator_UserTableName="PatientsDT" msprop:Generator_RowEvArgName="PatientsDTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PatientID" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnPatientID" msprop:Generator_ColumnPropNameInRow="PatientID" msprop:Generator_ColumnPropNameInTable="PatientIDColumn" msprop:Generator_UserColumnName="PatientID" type="xs:int" />
+              <xs:element name="FirstName" msprop:Generator_ColumnVarNameInTable="columnFirstName" msprop:Generator_ColumnPropNameInRow="FirstName" msprop:Generator_ColumnPropNameInTable="FirstNameColumn" msprop:Generator_UserColumnName="FirstName" type="xs:string" default="&quot;&quot;" minOccurs="0" />
+              <xs:element name="MiddleName" msprop:Generator_ColumnVarNameInTable="columnMiddleName" msprop:Generator_ColumnPropNameInRow="MiddleName" msprop:Generator_ColumnPropNameInTable="MiddleNameColumn" msprop:Generator_UserColumnName="MiddleName" type="xs:string" default="&quot;&quot;" minOccurs="0" />
+              <xs:element name="LastName" msprop:Generator_ColumnVarNameInTable="columnLastName" msprop:Generator_ColumnPropNameInRow="LastName" msprop:Generator_ColumnPropNameInTable="LastNameColumn" msprop:Generator_UserColumnName="LastName" type="xs:string" default="&quot;&quot;" minOccurs="0" />
+              <xs:element name="DateOfBirth" msprop:Generator_ColumnVarNameInTable="columnDateOfBirth" msprop:Generator_ColumnPropNameInRow="DateOfBirth" msprop:Generator_ColumnPropNameInTable="DateOfBirthColumn" msprop:Generator_UserColumnName="DateOfBirth" type="xs:string" minOccurs="0" />
+              <xs:element name="SSN" msprop:Generator_ColumnVarNameInTable="columnSSN" msprop:Generator_ColumnPropNameInRow="SSN" msprop:Generator_ColumnPropNameInTable="SSNColumn" msprop:Generator_UserColumnName="SSN" type="xs:string" default="&quot;&quot;" minOccurs="0" />
+              <xs:element name="MartialStatusID_x0020_" msprop:Generator_ColumnVarNameInTable="columnMartialStatusID_" msprop:Generator_ColumnPropNameInRow="MartialStatusID_" msprop:Generator_ColumnPropNameInTable="MartialStatusID_Column" msprop:Generator_UserColumnName="MartialStatusID " type="xs:int" minOccurs="0" />
+              <xs:element name="GenderID" msprop:Generator_ColumnVarNameInTable="columnGenderID" msprop:Generator_ColumnPropNameInRow="GenderID" msprop:Generator_ColumnPropNameInTable="GenderIDColumn" msprop:Generator_UserColumnName="GenderID" type="xs:int" minOccurs="0" />
+              <xs:element name="AddressStreet" msprop:Generator_ColumnVarNameInTable="columnAddressStreet" msprop:Generator_ColumnPropNameInRow="AddressStreet" msprop:Generator_ColumnPropNameInTable="AddressStreetColumn" msprop:Generator_UserColumnName="AddressStreet" type="xs:string" default="&quot;&quot;" minOccurs="0" />
+              <xs:element name="Apt_POBox_Ste" msprop:Generator_ColumnVarNameInTable="columnApt_POBox_Ste" msprop:Generator_ColumnPropNameInRow="Apt_POBox_Ste" msprop:Generator_ColumnPropNameInTable="Apt_POBox_SteColumn" msprop:Generator_UserColumnName="Apt_POBox_Ste" type="xs:string" default="&quot;&quot;" minOccurs="0" />
+              <xs:element name="AddressCity" msprop:Generator_ColumnVarNameInTable="columnAddressCity" msprop:Generator_ColumnPropNameInRow="AddressCity" msprop:Generator_ColumnPropNameInTable="AddressCityColumn" msprop:Generator_UserColumnName="AddressCity" type="xs:string" default="&quot;&quot;" minOccurs="0" />
+              <xs:element name="StateID" msprop:Generator_ColumnVarNameInTable="columnStateID" msprop:Generator_ColumnPropNameInRow="StateID" msprop:Generator_ColumnPropNameInTable="StateIDColumn" msprop:Generator_UserColumnName="StateID" type="xs:int" minOccurs="0" />
+              <xs:element name="ZIP" msprop:Generator_ColumnVarNameInTable="columnZIP" msprop:Generator_ColumnPropNameInRow="ZIP" msprop:Generator_ColumnPropNameInTable="ZIPColumn" msprop:Generator_UserColumnName="ZIP" type="xs:string" default="&quot;&quot;" minOccurs="0" />
+              <xs:element name="PhonePrimary" msprop:Generator_ColumnVarNameInTable="columnPhonePrimary" msprop:Generator_ColumnPropNameInRow="PhonePrimary" msprop:Generator_ColumnPropNameInTable="PhonePrimaryColumn" msprop:Generator_UserColumnName="PhonePrimary" type="xs:string" default="&quot;&quot;" minOccurs="0" />
+              <xs:element name="PhonePrimaryTypeID" msprop:Generator_ColumnVarNameInTable="columnPhonePrimaryTypeID" msprop:Generator_ColumnPropNameInRow="PhonePrimaryTypeID" msprop:Generator_ColumnPropNameInTable="PhonePrimaryTypeIDColumn" msprop:Generator_UserColumnName="PhonePrimaryTypeID" type="xs:int" minOccurs="0" />
+              <xs:element name="PhoneSecondary" msprop:Generator_ColumnVarNameInTable="columnPhoneSecondary" msprop:Generator_ColumnPropNameInRow="PhoneSecondary" msprop:Generator_ColumnPropNameInTable="PhoneSecondaryColumn" msprop:Generator_UserColumnName="PhoneSecondary" type="xs:string" default="&quot;&quot;" minOccurs="0" />
+              <xs:element name="PhoneSecondaryTypeID" msprop:Generator_ColumnVarNameInTable="columnPhoneSecondaryTypeID" msprop:Generator_ColumnPropNameInRow="PhoneSecondaryTypeID" msprop:Generator_ColumnPropNameInTable="PhoneSecondaryTypeIDColumn" msprop:Generator_UserColumnName="PhoneSecondaryTypeID" type="xs:int" minOccurs="0" />
+              <xs:element name="EmergencyFirstName" msprop:Generator_ColumnVarNameInTable="columnEmergencyFirstName" msprop:Generator_ColumnPropNameInRow="EmergencyFirstName" msprop:Generator_ColumnPropNameInTable="EmergencyFirstNameColumn" msprop:Generator_UserColumnName="EmergencyFirstName" type="xs:string" default="&quot;&quot;" minOccurs="0" />
+              <xs:element name="EmergencyLastName" msprop:Generator_ColumnVarNameInTable="columnEmergencyLastName" msprop:Generator_ColumnPropNameInRow="EmergencyLastName" msprop:Generator_ColumnPropNameInTable="EmergencyLastNameColumn" msprop:Generator_UserColumnName="EmergencyLastName" type="xs:string" default="&quot;&quot;" minOccurs="0" />
+              <xs:element name="EmergencyPhone" msprop:Generator_ColumnVarNameInTable="columnEmergencyPhone" msprop:Generator_ColumnPropNameInRow="EmergencyPhone" msprop:Generator_ColumnPropNameInTable="EmergencyPhoneColumn" msprop:Generator_UserColumnName="EmergencyPhone" type="xs:string" default="&quot;&quot;" minOccurs="0" />
+              <xs:element name="PaymentTypeID" msprop:Generator_ColumnVarNameInTable="columnPaymentTypeID" msprop:Generator_ColumnPropNameInRow="PaymentTypeID" msprop:Generator_ColumnPropNameInTable="PaymentTypeIDColumn" msprop:Generator_UserColumnName="PaymentTypeID" type="xs:int" minOccurs="0" />
+              <xs:element name="InsuranceCompany" msprop:Generator_ColumnVarNameInTable="columnInsuranceCompany" msprop:Generator_ColumnPropNameInRow="InsuranceCompany" msprop:Generator_ColumnPropNameInTable="InsuranceCompanyColumn" msprop:Generator_UserColumnName="InsuranceCompany" type="xs:string" default="&quot;&quot;" minOccurs="0" />
+              <xs:element name="InsuranceSubscriber" msprop:Generator_ColumnVarNameInTable="columnInsuranceSubscriber" msprop:Generator_ColumnPropNameInRow="InsuranceSubscriber" msprop:Generator_ColumnPropNameInTable="InsuranceSubscriberColumn" msprop:Generator_UserColumnName="InsuranceSubscriber" type="xs:string" default="&quot;&quot;" minOccurs="0" />
+              <xs:element name="InsuranceSubscriberDOB" msprop:Generator_ColumnVarNameInTable="columnInsuranceSubscriberDOB" msprop:Generator_ColumnPropNameInRow="InsuranceSubscriberDOB" msprop:Generator_ColumnPropNameInTable="InsuranceSubscriberDOBColumn" msprop:Generator_UserColumnName="InsuranceSubscriberDOB" type="xs:string" minOccurs="0" />
+              <xs:element name="InsuranceMemberID" msprop:Generator_ColumnVarNameInTable="columnInsuranceMemberID" msprop:Generator_ColumnPropNameInRow="InsuranceMemberID" msprop:Generator_ColumnPropNameInTable="InsuranceMemberIDColumn" msprop:Generator_UserColumnName="InsuranceMemberID" type="xs:string" default="&quot;&quot;" minOccurs="0" />
+              <xs:element name="InsuranceGroupNumber" msprop:Generator_ColumnVarNameInTable="columnInsuranceGroupNumber" msprop:Generator_ColumnPropNameInRow="InsuranceGroupNumber" msprop:Generator_ColumnPropNameInTable="InsuranceGroupNumberColumn" msprop:Generator_UserColumnName="InsuranceGroupNumber" type="xs:string" default="&quot;&quot;" minOccurs="0" />
+              <xs:element name="InsuranceRelationID" msprop:Generator_ColumnVarNameInTable="columnInsuranceRelationID" msprop:Generator_ColumnPropNameInRow="InsuranceRelationID" msprop:Generator_ColumnPropNameInTable="InsuranceRelationIDColumn" msprop:Generator_UserColumnName="InsuranceRelationID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GenderDT" msprop:Generator_TableClassName="GenderDTDataTable" msprop:Generator_TableVarName="tableGenderDT" msprop:Generator_RowChangedName="GenderDTRowChanged" msprop:Generator_TablePropName="GenderDT" msprop:Generator_RowDeletingName="GenderDTRowDeleting" msprop:Generator_RowChangingName="GenderDTRowChanging" msprop:Generator_RowEvHandlerName="GenderDTRowChangeEventHandler" msprop:Generator_RowDeletedName="GenderDTRowDeleted" msprop:Generator_RowClassName="GenderDTRow" msprop:Generator_UserTableName="GenderDT" msprop:Generator_RowEvArgName="GenderDTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GenderID" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnGenderID" msprop:Generator_ColumnPropNameInRow="GenderID" msprop:Generator_ColumnPropNameInTable="GenderIDColumn" msprop:Generator_UserColumnName="GenderID" type="xs:int" />
+              <xs:element name="Gender" msprop:Generator_ColumnVarNameInTable="columnGender" msprop:Generator_ColumnPropNameInRow="Gender" msprop:Generator_ColumnPropNameInTable="GenderColumn" msprop:Generator_UserColumnName="Gender" type="xs:string" default="&quot;&quot;" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MaritalStatusDT" msprop:Generator_TableClassName="MaritalStatusDTDataTable" msprop:Generator_TableVarName="tableMaritalStatusDT" msprop:Generator_RowChangedName="MaritalStatusDTRowChanged" msprop:Generator_TablePropName="MaritalStatusDT" msprop:Generator_RowDeletingName="MaritalStatusDTRowDeleting" msprop:Generator_RowChangingName="MaritalStatusDTRowChanging" msprop:Generator_RowEvHandlerName="MaritalStatusDTRowChangeEventHandler" msprop:Generator_RowDeletedName="MaritalStatusDTRowDeleted" msprop:Generator_RowClassName="MaritalStatusDTRow" msprop:Generator_UserTableName="MaritalStatusDT" msprop:Generator_RowEvArgName="MaritalStatusDTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MartialStatusID" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnMartialStatusID" msprop:Generator_ColumnPropNameInRow="MartialStatusID" msprop:Generator_ColumnPropNameInTable="MartialStatusIDColumn" msprop:Generator_UserColumnName="MartialStatusID" type="xs:int" />
+              <xs:element name="MartialStatus" msprop:Generator_ColumnVarNameInTable="columnMartialStatus" msprop:Generator_ColumnPropNameInRow="MartialStatus" msprop:Generator_ColumnPropNameInTable="MartialStatusColumn" msprop:Generator_UserColumnName="MartialStatus" type="xs:string" default="&quot;&quot;" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="StateDT" msprop:Generator_TableClassName="StateDTDataTable" msprop:Generator_TableVarName="tableStateDT" msprop:Generator_RowChangedName="StateDTRowChanged" msprop:Generator_TablePropName="StateDT" msprop:Generator_RowDeletingName="StateDTRowDeleting" msprop:Generator_RowChangingName="StateDTRowChanging" msprop:Generator_RowEvHandlerName="StateDTRowChangeEventHandler" msprop:Generator_RowDeletedName="StateDTRowDeleted" msprop:Generator_RowClassName="StateDTRow" msprop:Generator_UserTableName="StateDT" msprop:Generator_RowEvArgName="StateDTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StateID" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnStateID" msprop:Generator_ColumnPropNameInRow="StateID" msprop:Generator_ColumnPropNameInTable="StateIDColumn" msprop:Generator_UserColumnName="StateID" type="xs:int" />
+              <xs:element name="State" msprop:Generator_ColumnVarNameInTable="columnState" msprop:Generator_ColumnPropNameInRow="State" msprop:Generator_ColumnPropNameInTable="StateColumn" msprop:Generator_UserColumnName="State" type="xs:string" default="&quot;&quot;" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PhoneTypeDT" msprop:Generator_TableClassName="PhoneTypeDTDataTable" msprop:Generator_TableVarName="tablePhoneTypeDT" msprop:Generator_RowChangedName="PhoneTypeDTRowChanged" msprop:Generator_TablePropName="PhoneTypeDT" msprop:Generator_RowDeletingName="PhoneTypeDTRowDeleting" msprop:Generator_RowChangingName="PhoneTypeDTRowChanging" msprop:Generator_RowEvHandlerName="PhoneTypeDTRowChangeEventHandler" msprop:Generator_RowDeletedName="PhoneTypeDTRowDeleted" msprop:Generator_RowClassName="PhoneTypeDTRow" msprop:Generator_UserTableName="PhoneTypeDT" msprop:Generator_RowEvArgName="PhoneTypeDTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PhoneTypeID" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnPhoneTypeID" msprop:Generator_ColumnPropNameInRow="PhoneTypeID" msprop:Generator_ColumnPropNameInTable="PhoneTypeIDColumn" msprop:Generator_UserColumnName="PhoneTypeID" type="xs:int" />
+              <xs:element name="PhoneType" msprop:Generator_ColumnVarNameInTable="columnPhoneType" msprop:Generator_ColumnPropNameInRow="PhoneType" msprop:Generator_ColumnPropNameInTable="PhoneTypeColumn" msprop:Generator_UserColumnName="PhoneType" type="xs:string" default="&quot;&quot;" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PaymentTypeDT" msprop:Generator_TableClassName="PaymentTypeDTDataTable" msprop:Generator_TableVarName="tablePaymentTypeDT" msprop:Generator_RowChangedName="PaymentTypeDTRowChanged" msprop:Generator_TablePropName="PaymentTypeDT" msprop:Generator_RowDeletingName="PaymentTypeDTRowDeleting" msprop:Generator_RowChangingName="PaymentTypeDTRowChanging" msprop:Generator_RowEvHandlerName="PaymentTypeDTRowChangeEventHandler" msprop:Generator_RowDeletedName="PaymentTypeDTRowDeleted" msprop:Generator_RowClassName="PaymentTypeDTRow" msprop:Generator_UserTableName="PaymentTypeDT" msprop:Generator_RowEvArgName="PaymentTypeDTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PaymentTypeID" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnPaymentTypeID" msprop:Generator_ColumnPropNameInRow="PaymentTypeID" msprop:Generator_ColumnPropNameInTable="PaymentTypeIDColumn" msprop:Generator_UserColumnName="PaymentTypeID" type="xs:int" />
+              <xs:element name="PaymentType" msprop:Generator_ColumnVarNameInTable="columnPaymentType" msprop:Generator_ColumnPropNameInRow="PaymentType" msprop:Generator_ColumnPropNameInTable="PaymentTypeColumn" msprop:Generator_UserColumnName="PaymentType" type="xs:string" default="&quot;&quot;" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="InsuranceRelationDT" msprop:Generator_TableClassName="InsuranceRelationDTDataTable" msprop:Generator_TableVarName="tableInsuranceRelationDT" msprop:Generator_RowChangedName="InsuranceRelationDTRowChanged" msprop:Generator_TablePropName="InsuranceRelationDT" msprop:Generator_RowDeletingName="InsuranceRelationDTRowDeleting" msprop:Generator_RowChangingName="InsuranceRelationDTRowChanging" msprop:Generator_RowEvHandlerName="InsuranceRelationDTRowChangeEventHandler" msprop:Generator_RowDeletedName="InsuranceRelationDTRowDeleted" msprop:Generator_RowClassName="InsuranceRelationDTRow" msprop:Generator_UserTableName="InsuranceRelationDT" msprop:Generator_RowEvArgName="InsuranceRelationDTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="InsuranceRelationID" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnInsuranceRelationID" msprop:Generator_ColumnPropNameInRow="InsuranceRelationID" msprop:Generator_ColumnPropNameInTable="InsuranceRelationIDColumn" msprop:Generator_UserColumnName="InsuranceRelationID" type="xs:int" />
+              <xs:element name="InsuranceRelation" msprop:Generator_ColumnVarNameInTable="columnInsuranceRelation" msprop:Generator_ColumnPropNameInRow="InsuranceRelation" msprop:Generator_ColumnPropNameInTable="InsuranceRelationColumn" msprop:Generator_UserColumnName="InsuranceRelation" type="xs:string" default="&quot;&quot;" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PatientsDT" />
+      <xs:field xpath="mstns:PatientID" />
+    </xs:unique>
+    <xs:unique name="GenderDT_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:GenderDT" />
+      <xs:field xpath="mstns:GenderID" />
+    </xs:unique>
+    <xs:unique name="MaritalStatusDT_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:MaritalStatusDT" />
+      <xs:field xpath="mstns:MartialStatusID" />
+    </xs:unique>
+    <xs:unique name="StateDT_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:StateDT" />
+      <xs:field xpath="mstns:StateID" />
+    </xs:unique>
+    <xs:unique name="PhoneTypeDT_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PhoneTypeDT" />
+      <xs:field xpath="mstns:PhoneTypeID" />
+    </xs:unique>
+    <xs:unique name="PaymentTypeDT_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PaymentTypeDT" />
+      <xs:field xpath="mstns:PaymentTypeID" />
+    </xs:unique>
+    <xs:unique name="InsuranceRelationDT_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:InsuranceRelationDT" />
+      <xs:field xpath="mstns:InsuranceRelationID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
